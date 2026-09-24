@@ -91,16 +91,15 @@ The units of both ovary width and height are $mm$, so the units of ovary area ar
 
 **a.** In the chunk below, calculate the mean `ovary_area` for each `population_type` with `aggregate()` (Chapter 3, *Other Functions*) and save the result as `area_means`. This chunk should run but be **completely hidden** in the report.
 
-```{r area-means, include = F}
-area_means <- aggregate(cc1_data$ovary_area, list(cc1_data$populationtype), mean)
-area_means
+```{r area-means, include=F}
+area_means <- aggregate(cc1_data$ovary_area,listcc1_data$po)
+
 ```
 
 **b.** Display `area_means` with `kable()` from the `knitr` package (Chapter 5, *Dynamic Tables*), including a `caption`. This chunk should show the **table but not the code**.
 
-```{r area-table, echo = F}
+```{r area-table}
 
-kable(area_means, caption = "Table of Mean Ovary Area")
 ```
 
 # Embedded graph
@@ -108,8 +107,7 @@ kable(area_means, caption = "Table of Mean Ovary Area")
 Make a histogram of `ovary_area` with `ggplot()` + `geom_histogram()` (Chapter 4), choosing a sensible `binwidth` and using `facet_wrap()` to give each `population_type` its own panel, `labs()` for axis labels with units and a title, and `theme_classic()` (Chapter 7). This chunk should show the **graph but not the code**, and it should not print package start-up messages (see the chunk header used under *Embed Graphs* in Chapter 5).
 
 ```{r area-histogram}
-ggplot(aes(x = ovary_area), data = cc1_data) + geom_histogram(binwidth = 0.75) + labs(x = bquote("Ovary Area (mm"^2*")"), y= "Count", title = Mean Ovary Width of Different Plant Populations)
-# Forgot to use facet_wrap(), come back in later to update this graph
+
 ```
 
 # Image

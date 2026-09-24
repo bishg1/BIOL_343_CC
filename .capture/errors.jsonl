@@ -1,1 +1,23 @@
 {"chunk":null,"ts":"2026-09-24T16:55:07Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: 2 arguments passed to 'class' which requires 1"}
+{"chunk":null,"ts":"2026-09-24T17:02:08Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected symbol"}
+{"chunk":null,"ts":"2026-09-24T17:02:38Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected symbol"}
+{"chunk":null,"ts":"2026-09-24T17:03:17Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: Syntax error: unexpected symbol"}
+{"chunk":null,"ts":"2026-09-24T17:36:47Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: undefined columns selected"}
+{"chunk":null,"ts":"2026-09-24T17:38:54Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘knitr’ was built under R version 4.5.3"}
+{"chunk":null,"ts":"2026-09-24T17:40:27Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘dplyr’ was built under R version 4.5.3"}
+{"chunk":null,"ts":"2026-09-24T17:59:23Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: could not find function \"ggplot\""}
+{"chunk":null,"ts":"2026-09-24T17:59:35Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: package ‘ggplot2’ was built under R version 4.5.2"}
+{"chunk":null,"ts":"2026-09-24T17:59:40Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:00:59Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:01:03Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:01:07Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:01:14Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:01:18Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:01:24Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:01:28Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:01:34Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:01:39Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:02:09Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:08:21Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: object 'Count' not found"}
+{"chunk":null,"ts":"2026-09-24T18:08:29Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-24T18:08:46Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}

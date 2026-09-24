@@ -109,7 +109,7 @@ Make a histogram of `ovary_area` with `ggplot()` + `geom_histogram()` (Chapter 4
 
 ```{r area-histogram}
 ggplot(aes(x = ovary_area), data = cc1_data) + geom_histogram(binwidth = 0.75) + labs(x = bquote("Ovary Area (mm"^2*")"), y= "Count", title = Mean Ovary Width of Different Plant Populations)
-# Forgot to use facet_wrap(), come back in later to update this graph
+
 ```
 
 # Image
