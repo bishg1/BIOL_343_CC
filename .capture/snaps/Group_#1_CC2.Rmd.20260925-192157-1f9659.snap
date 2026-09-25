@@ -103,8 +103,7 @@ area_means
 ```{r area-table, echo = F}
 
 kable(area_means, caption = "Table of Mean Ovary Area", colnames = c("Mean Ovary Area"))
-
-
+# Still have weird captions for the columns here, come back to figure this out
 ```
 
 # Embedded graph

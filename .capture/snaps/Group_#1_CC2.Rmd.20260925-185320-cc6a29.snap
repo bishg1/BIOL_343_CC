@@ -57,18 +57,17 @@ Table
 ---------------
 Variable | Description | Units
 ---------|-------------|
-population_type | Type of plant population, asexual or sexual | no units
-ovary_height | The height of the ovary |
-ovary_width | Width of plant ovaries | mm
-flower_number | The average number of flowers produced by each individual in a sample of plants | count
+population_type | Type of plant population | Population type
+ovary_height
+ovary_width | Width of plant ovaries | Millimetres
+flower_number | Number of flowers on a plant | Number of flowers
 
 # Import and clean the data
 
 Copy `A1_Data_Excel.csv` from your Coding Challenge 1 project into this project's `data` folder. In the chunk below, import it with `read.csv()`, keep the appropriate rows and columns (as you did in Coding Challenge 1), and add the `ovary_area` column (Chapter 3, *New Columns*). Save the cleaned data as `cc1_data`.
 
 ```{r import-clean}
-cc_data <- read.csv('A1_Data_Excel.csv')
-cc1_data <- cc_data[!is.na(cc1_data$ovary_area) & !is.na(cc1_data$populationtype), ]
+cc1_data <- read.csv('A1_Data_Excel.csv')
 cc1_data$ovary_area <- cc1_data$ovarywidth * cc1_data$ovaryheight
 names(cc1_data)
 print(cc1_data$ovary_area[1:10])
@@ -102,9 +101,7 @@ area_means
 
 ```{r area-table, echo = F}
 
-kable(area_means, caption = "Table of Mean Ovary Area", colnames = c("Mean Ovary Area"))
-
-
+kable(area_means, caption = "Table of Mean Ovary Area")
 ```
 
 # Embedded graph
@@ -112,7 +109,8 @@ kable(area_means, caption = "Table of Mean Ovary Area", colnames = c("Mean Ovary
 Make a histogram of `ovary_area` with `ggplot()` + `geom_histogram()` (Chapter 4), choosing a sensible `binwidth` and using `facet_wrap()` to give each `population_type` its own panel, `labs()` for axis labels with units and a title, and `theme_classic()` (Chapter 7). This chunk should show the **graph but not the code**, and it should not print package start-up messages (see the chunk header used under *Embed Graphs* in Chapter 5).
 
 ```{r area-histogram}
-ggplot(aes(x = ovary_area), data = cc1_data) + geom_histogram(binwidth = 1, aes(fill = populationtype, colour = populationtype)) + labs(x = bquote("Ovary Area (mm"^2*")"), y= "Count", title = "Mean Ovary Width of Different Plant Populations") + facet_wrap(vars(populationtype)) + theme_classic()
+ggplot(aes(x = ovary_area), data = cc1_data) + geom_histogram(binwidth = 0.75) + labs(x = bquote("Ovary Area (mm"^2*")"), y= "Count", title = Mean Ovary Width of Different Plant Populations) + facet_wrap(vars(populationtype))
+# Forgot to use facet_wrap(), come back in later to update this graph
 ```
 
 # Image

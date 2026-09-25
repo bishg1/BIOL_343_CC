@@ -104,7 +104,7 @@ area_means
 
 kable(area_means, caption = "Table of Mean Ovary Area", colnames = c("Mean Ovary Area"))
 
-
+str(area_means)
 ```
 
 # Embedded graph

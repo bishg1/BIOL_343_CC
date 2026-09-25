@@ -102,9 +102,8 @@ area_means
 
 ```{r area-table, echo = F}
 
-kable(area_means, caption = "Table of Mean Ovary Area", colnames = c("Mean Ovary Area"))
-
-
+kable(area_means, caption = "Table of Mean Ovary Area", colnames = c("Population Type", "Mean Ovary Area"))
+# Still have weird captions for the columns here, come back to figure this out
 ```
 
 # Embedded graph
@@ -112,7 +111,7 @@ kable(area_means, caption = "Table of Mean Ovary Area", colnames = c("Mean Ovary
 Make a histogram of `ovary_area` with `ggplot()` + `geom_histogram()` (Chapter 4), choosing a sensible `binwidth` and using `facet_wrap()` to give each `population_type` its own panel, `labs()` for axis labels with units and a title, and `theme_classic()` (Chapter 7). This chunk should show the **graph but not the code**, and it should not print package start-up messages (see the chunk header used under *Embed Graphs* in Chapter 5).
 
 ```{r area-histogram}
-ggplot(aes(x = ovary_area), data = cc1_data) + geom_histogram(binwidth = 1, aes(fill = populationtype, colour = populationtype)) + labs(x = bquote("Ovary Area (mm"^2*")"), y= "Count", title = "Mean Ovary Width of Different Plant Populations") + facet_wrap(vars(populationtype)) + theme_classic()
+ggplot(aes(x = ovary_area), data = cc1_data) + geom_histogram(binwidth = 1, aes(fill = populationtype, )) + labs(x = bquote("Ovary Area (mm"^2*")"), y= "Count", title = "Mean Ovary Width of Different Plant Populations") + facet_wrap(vars(populationtype)) + theme_classic()
 ```
 
 # Image

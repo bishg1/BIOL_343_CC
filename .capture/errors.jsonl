@@ -21,3 +21,6 @@
 {"chunk":null,"ts":"2026-09-24T18:08:21Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: object 'Count' not found"}
 {"chunk":null,"ts":"2026-09-24T18:08:29Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
 {"chunk":null,"ts":"2026-09-24T18:08:46Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-25T19:00:08Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-25T19:00:24Z","pid":14024,"engine":"r","severity":"warning","render":false,"warning":"## Warning: \u001b[1m\u001b[22mRemoved 2 rows containing non-finite outside the scale range (`stat_bin()`)."}
+{"chunk":null,"ts":"2026-09-25T19:01:04Z","pid":14024,"engine":"r","severity":"error","render":false,"text":"## Error: unused argument (na.rm = TRUE)"}
